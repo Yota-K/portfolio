@@ -1,9 +1,12 @@
 import React from 'react';
+import { title } from '~/config/app';
 
 const Header: React.FC = () => {
   return (
-    <header>
-      <h1 className="text-lg">Karukichi Soejima</h1>
+    <header className="py-4 shadow-lg ">
+      <div className="mx-auto w-11/12 lg:w-7/12">
+        <h1 className="text-xl font-bold">{title}</h1>
+      </div>
     </header>
   );
 };

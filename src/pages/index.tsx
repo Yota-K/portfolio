@@ -2,6 +2,7 @@ import React from 'react';
 import { HeadFC } from 'gatsby';
 import Layout from '~/components/Layout';
 import { Profile, Career, Skills, Others, Contact } from '~/components/sections';
+import { title } from '~/config/app';
 
 const Top: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ export default Top;
 
 export const Head: HeadFC = () => (
   <>
-    <title>Karukichi Soejima Portfolio</title>
+    <title>{title}</title>
     <meta name="description" content="Karukichi Soejima's portfolio site." />
   </>
 );

@@ -1,8 +1,9 @@
 import type { GatsbyConfig } from 'gatsby';
+import { title } from './src/config/app';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Karukichi Soejima Portfolio`,
+    title,
     siteUrl: `https://www.yourdomain.tld`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
