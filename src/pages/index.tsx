@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Header from '~/components/Header';
 import type { HeadFC } from 'gatsby';
 
 const pageStyles = {
@@ -139,6 +140,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <Header />
       <h1 style={headingStyles}>
         Congratulations
         <br />
