@@ -16,6 +16,7 @@
     "format": "prettier --write **/*.{js,ts,tsx}"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.3",
     "gatsby": "^4.24.3",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-sharp": "^4.24.0",
