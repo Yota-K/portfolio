@@ -8,15 +8,6 @@ const Contact: React.FC = () => {
         仕事の依頼は
         <a
           className="text-blue-600 hover:underline"
-          href="mailto:powdersugar828828@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          powdersugar828828@gmail.com
-        </a>
-        か
-        <a
-          className="text-blue-600 hover:underline"
           href="https://twitter.com/karukichi_yah"
           target="_blank"
           rel="noopener noreferrer"

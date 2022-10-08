@@ -12,7 +12,7 @@ const Others: React.FC = () => {
     {
       name: 'GitHub',
       icon: <FaGithub />,
-      url: 'https://github.com/Yota-K/portfolio',
+      url: 'https://github.com/Yota-K',
     },
     {
       name: 'Speaker Deck',
@@ -26,7 +26,12 @@ const Others: React.FC = () => {
       <ul>
         {webInfoList.map((link) => (
           <li key={link.name} className="items-center text-blue-600 last-of-type:pb-0">
-            <a href={link.url} className="inline-block p-2 cursor-pointer font-bold hover:bg-blue-50 hover:rounded-lg">
+            <a
+              className="inline-block p-2 cursor-pointer font-bold hover:bg-blue-50 hover:rounded-lg"
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="inline-block align-middle pr-2">{link.icon}</span>
               <span>{link.name}</span>
             </a>

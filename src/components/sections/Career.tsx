@@ -27,7 +27,8 @@ const Career: React.FC = () => {
           <p className="lg:mb-10 mb-6">
             ウェブエンジニア1年目はWordPressを使ったサイト構築を主に行っていました。
             <br />
-            WordPressを用いたサイト制作と並行して、Laravelを使った社内ツールの開発や、GatsbyJSを使ったサイトのフロントエンド・バックエンドの改修も行いました。
+            WordPressを用いたサイト制作と並行して、Laravelを使った社内ツールの開発や、GatsbyJSを使ったサイトのフロントエンド・バックエンド（Serverless
+            Frameworkを使用したマイクロサービス）の改修も行いました。
           </p>
         </div>
       </div>
