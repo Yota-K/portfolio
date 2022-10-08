@@ -1,10 +1,9 @@
 // This sample config can be found at our opensource repository located at:
 // https://github.com/delasign/gatsbyjs-typescript-starter
+import { GatsbyNode } from 'gatsby';
+import path from 'path';
 
-const path = require('path');
-
-// Required for Paths to work with Gatsby.
-exports.onCreateWebpackConfig = ({ actions }) => {
+export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
       alias: {
