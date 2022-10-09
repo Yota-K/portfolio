@@ -19,6 +19,7 @@
     "@headlessui/react": "^1.7.3",
     "gatsby": "^4.24.3",
     "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-purgecss": "^6.1.2",
     "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
