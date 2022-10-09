@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from '~/components/Button';
 import Modal from '~/components/Modal';
 import SectionRoot from './SectionRoot';
-import { SkillInfo, allSkills } from '~/allSkills';
+import { SkillInfo, allSkills } from '~/data/allSkills';
 
 const Skills: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
