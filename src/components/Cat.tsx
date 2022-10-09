@@ -14,7 +14,7 @@ const Cat: React.FC = () => {
   };
 
   return (
-    <div className="max-w-fit m-auto">
+    <div className="m-auto max-w-xs">
       <Lottie options={defaultOptions} height={300} width={300} />
     </div>
   );
