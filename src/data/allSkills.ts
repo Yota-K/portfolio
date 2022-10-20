@@ -27,7 +27,7 @@ export const allSkills: {
         `,
       },
       {
-        title: 'JavsScript',
+        title: 'JavaScript',
         yearsOfExperience: '経験年数: 3年',
         content: `
 <p>基本的な部分は抑えています。</p>
