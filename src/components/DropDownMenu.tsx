@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import useDarkMode from 'use-dark-mode';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import { Menu, Transition } from '@headlessui/react';
@@ -10,10 +10,18 @@ const DropDownMenu: React.FC = () => {
     storageKey: 'karukichiPortfolioDarkMode',
   });
 
+  const [isOsDarkmode, setIsOsDarkmode] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== undefined && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setIsOsDarkmode(true);
+    }
+  }, []);
+
   return (
     <Menu as="div" className="relative inline-block text-left">
       <Menu.Button>
-        {darkMode.value ? (
+        {isOsDarkmode && darkMode.value ? (
           <FaMoon className="w-5 h-5 text-yellow-500" />
         ) : (
           <FaSun className="w-5 h-5 text-orange-500" />

@@ -1,8 +1,6 @@
 import React from 'react';
-import useDarkMode from 'use-dark-mode';
 
 const Logo: React.FC = () => {
-  const darkMode = useDarkMode();
   return (
     <svg width="240" height="24" viewBox="0 0 240 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="logo">
       <circle cx="12" cy="12" r="12" fill="#FFAFAF" />
