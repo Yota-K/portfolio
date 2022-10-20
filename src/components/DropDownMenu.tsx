@@ -4,7 +4,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 import { Menu, Transition } from '@headlessui/react';
 
 const DropDownMenu: React.FC = () => {
-  const darkMode = useDarkMode(false, {
+  const darkMode = useDarkMode(undefined, {
     classNameDark: 'dark',
     classNameLight: 'light',
     storageKey: 'karukichiPortfolioDarkMode',
