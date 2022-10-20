@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Default bg */
+.light {
+  background-color: rgb(255 251 235 / 1);
+}
+
+/* Use dark mode only */
+.dark {
+  background-color: rgb(17 24 39 / 1);
+}
