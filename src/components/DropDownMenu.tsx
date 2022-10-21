@@ -8,14 +8,22 @@ const DropDownMenu: React.FC = () => {
     classNameDark: 'dark',
     classNameLight: 'light',
   });
+  const [isOsDarkmode, setIsOsDarkmode] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== undefined && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setIsOsDarkmode(true);
+    }
+  }, []);
 
   return (
     <Menu as="div" className="relative inline-block text-left">
       <Menu.Button>
-        {darkMode.value ? (
-          <FaMoon className="w-5 h-5 text-yellow-500" />
-        ) : (
-          <FaSun className="w-5 h-5 text-orange-500" />
+        {isOsDarkmode && (
+          <>
+            {darkMode.value && <FaMoon className="w-5 h-5 text-yellow-500" />}
+            {!darkMode.value && <FaSun className="w-5 h-5 text-orange-500" />}
+          </>
         )}
       </Menu.Button>
       <Transition
