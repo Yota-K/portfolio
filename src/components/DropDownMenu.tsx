@@ -10,6 +10,7 @@ const DropDownMenu: React.FC = () => {
   });
   const [isOsDarkmode, setIsOsDarkmode] = useState(false);
 
+  // Rendered Check
   useEffect(() => {
     if (typeof window !== undefined && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setIsOsDarkmode(true);
@@ -18,14 +19,16 @@ const DropDownMenu: React.FC = () => {
 
   return (
     <Menu as="div" className="relative inline-block text-left">
-      <Menu.Button>
-        {isOsDarkmode && (
+      {isOsDarkmode && (
+        <Menu.Button
+          className={`p-2 rounded-full transition-all ${darkMode.value ? 'hover:bg-white/30' : 'hover:bg-black/10'}`}
+        >
           <>
             {darkMode.value && <FaMoon className="w-5 h-5 text-yellow-500" />}
             {!darkMode.value && <FaSun className="w-5 h-5 text-orange-500" />}
           </>
-        )}
-      </Menu.Button>
+        </Menu.Button>
+      )}
       <Transition
         enter="transition duration-100 ease-out"
         enterFrom="transform scale-95 opacity-0"
