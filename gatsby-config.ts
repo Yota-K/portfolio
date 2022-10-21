@@ -42,6 +42,14 @@ const config: GatsbyConfig = {
         icon: 'src/images/favicon.svg', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-use-dark-mode',
+      options: {
+        classNameDark: 'dark',
+        classNameLight: 'light',
+        minify: true,
+      },
+    },
   ],
 };
 
