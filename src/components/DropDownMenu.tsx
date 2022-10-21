@@ -7,7 +7,6 @@ const DropDownMenu: React.FC = () => {
   const darkMode = useDarkMode(false, {
     classNameDark: 'dark',
     classNameLight: 'light',
-    storageKey: 'karukichiPortfolioDarkMode',
   });
 
   const [isOsDarkmode, setIsOsDarkmode] = useState(false);
