@@ -4,7 +4,7 @@ import DropDownMenu from './DropDownMenu';
 
 const Header: React.FC = () => {
   return (
-    <header className="min-h-fit py-3 backdrop-blur bg-white/30 dark:bg-black/30 shadow-lg border-b fixed w-full z-40">
+    <header className="py-3 backdrop-blur bg-white/80 dark:bg-black/80 shadow-lg border-b fixed w-full z-40">
       <div className="flex justify-between items-center mx-auto w-11/12 lg:w-7/12">
         <h1 className="inline-block lg:w-60">
           <Logo />
