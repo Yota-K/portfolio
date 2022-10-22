@@ -2,7 +2,7 @@ import React from 'react';
 
 type Props = {
   children: React.ReactNode;
-} & React.ButtonHTMLAttributes<HTMLButtonElement>;
+} & Omit<React.ComponentPropsWithRef<'button'>, 'type'>;
 
 const Button: React.FC<Props> = ({ children, className, ...rest }) => {
   return (
