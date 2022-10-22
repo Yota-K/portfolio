@@ -1,3 +1,4 @@
+export { default as Cat } from './Cat';
 export { default as Profile } from './Profile';
 export { default as Career } from './Career';
 export { default as Skills } from './Skills';

@@ -1,8 +1,7 @@
 import React from 'react';
 import { HeadFC } from 'gatsby';
-import Cat from '~/components/Cat';
 import Layout from '~/components/Layout';
-import { Profile, Career, Skills, Others, Contact } from '~/components/sections';
+import { Cat, Profile, Career, Skills, Others, Contact } from '~/components/sections';
 import { title } from '~/config/app';
 
 const Top: React.FC = () => {

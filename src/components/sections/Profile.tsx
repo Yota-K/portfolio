@@ -18,7 +18,7 @@ const Profile: React.FC = () => {
               src="../../images/icon.png"
               alt="Karukichi"
               width={100}
-              className="rounded-full border-gray-500 border"
+              className="bg-white rounded-full border-gray-500 border"
             />
             <h4 className="text-sm mt-2">He is Karukichi.</h4>
           </div>

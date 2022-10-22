@@ -18,7 +18,7 @@ export const allSkills: {
         content: `
 <p>基本的な部分は抑えています。</p>
 <br />
-<p>HTMLに関しては、読みやすさと意味にあった適切なタグを使用したコーディングを心がけています。</p>
+<p>HTMLに関しては、読みやすさと用途に合った適切なタグを使用したコーディングを心がけています。</p>
 <br />
 <p>CSSに関しては、保守と運用のしやすさを考慮したCSS設計を取り入れて、コーディングをすることができます。</p>
 <p>最近は、Reactを使って開発をすることが多いので、Scoped CSSを実現できるCSS in JS系のライブラリをよく使います。</p>
@@ -31,15 +31,15 @@ export const allSkills: {
         yearsOfExperience: '経験年数: 3年',
         content: `
 <p>基本的な部分は抑えています。</p>
-<p>最近はTypeScriptを使うことがほとんどなので、ピュアなJSを使用する機会はほぼありません。</p>
+<p>最近はTypeScriptを使うことがほとんどなので、ピュアなJSを使用する機会はほとんどありません。</p>
         `,
       },
       {
         title: 'TypeScript',
         yearsOfExperience: '経験年数: 2年',
         content: `
-<p>最も使用頻度の高い言語です。</p>
-<p>フロントエンド・バックエンド開発問わずよく使用します。</p>
+<p>メインで使用しているプログラミング言語です。</p>
+<p>フロントエンド・バックエンド、ウェブ制作・ウェブ開発問わずよく使用します。</p>
         `,
       },
       {
@@ -49,7 +49,7 @@ export const allSkills: {
 <p>基本的な部分は抑えています。</p>
 <p>フレームワークだと、Laravelの実務経験があります。</p>
 <br />
-<p>WordPressを業務で使っていた時はよく書いていましたが、最近はほとんど使う機会がありません。</p>
+<p>WordPressを実務で使用していた時はよく書いていましたが、最近はほとんど使用する機会がありません。</p>
         `,
       },
       {
@@ -69,9 +69,9 @@ export const allSkills: {
         title: 'React',
         yearsOfExperience: '経験年数: 3年',
         content: `
-<p>アプリケーション開発、ウェブ制作どちらの実務経験もあります。</p>
+<p>ウェブ開発、ウェブ制作どちらの実務経験もあります。</p>
 <br />
-<p>SPAを構築するときは、ViteをSGやSSRが必要な時はNext.jsを使用する機会が多いです。</p>
+<p>SPAを構築するときはViteを、SGやSSR、SEOを意識する必要がある時はNext.jsを使用することが多いです。</p>
 <br />
 <p>JestやVitestを用いた単体テストの実装経験もあります。</p>
         `,
@@ -80,7 +80,7 @@ export const allSkills: {
         title: 'Vue.js',
         yearsOfExperience: '経験年数: 1年',
         content: `
-<p>Vue3系のComposition APIを用いたSPAの構築経験があります。</p>
+<p>実務ではVue3系のComposition APIを用いたSPAの構築経験があります。</p>
 <p>2系の実務経験はありませんが、読めはします。</p>
         `,
       },
@@ -90,7 +90,8 @@ export const allSkills: {
         content: `
 <p>Serverless Frameworkを使用したマイクロサービスの改修経験があります。</p>
 <p>AWS SESを使ったメール送信を行う処理の実装経験もあります。</p>
-<p>個人の開発では、NestJSやPrismaを使用した経験があります。</p>
+<br />
+<p>個人開発では、NestJSやPrismaを使用した経験があります。</p>
         `,
       },
       {
@@ -105,7 +106,7 @@ export const allSkills: {
         title: 'WordPress',
         yearsOfExperience: '経験年数: 4年',
         content: `
-<p>テーマの制作や、管理画面のカスタマイズ、プラグイン開発の実務経験があります。</p>
+<p>実務ではテーマの開発や、管理画面のカスタマイズ、プラグイン開発の実務経験があります。</p>
 <br />
 <p>個人の開発では、Gutenbergのカスタムブロックを開発した経験もあります。</p>
         `,
@@ -129,7 +130,9 @@ export const allSkills: {
         yearsOfExperience: '経験年数: 2年',
         content: `
 <p>基礎の基礎レベルは抑えています。</p>
+<br />
 <p>S3・CloudFront・Lambda・API Gateway・Amplify・WAFあたりは実務で構築・設定を行った経験があります。</p>
+<br />
 <p>あまり得意ではありません。</p>
         `,
       },
@@ -139,7 +142,7 @@ export const allSkills: {
     heading: 'Editor',
     skills: [
       {
-        title: 'Neovim',
+        title: 'Vim・Neovim',
         yearsOfExperience: '経験年数: 3年',
         content: `
 <p>プログラミングを学習し始めた2019年頃からずっとVimを使って開発を行っています。</p>
