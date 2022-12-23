@@ -7,3 +7,6 @@ declare namespace App {
 	// interface PageData {}
 	// interface Platform {}
 }
+
+declare module '@lottiefiles/svelte-lottie-player';
+declare module 'svelte-icons/fa/*.svelte';

@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { title } from '$lib/config';
+	import Cat from '$lib/components/sections/Cat.svelte';
+	import Profile from '$lib/components/sections/Profile.svelte';
+	import Career from '$lib/components/sections/Career.svelte';
+	import Others from '$lib/components/sections/Others.svelte';
+	import Contact from '$lib/components/sections/Contact.svelte';
+</script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta name="description" content="Karukichi Soejima's portfolio site." />
+</svelte:head>
+
+<Cat />
+<Profile />
+<Career />
+<Others />
+<Contact />
