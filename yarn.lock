@@ -197,6 +197,11 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
+"@rgossiaux/svelte-headlessui@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@rgossiaux/svelte-headlessui/-/svelte-headlessui-1.0.2.tgz#9493251a40cd56d8bdc8f0f64623d886bb872b1e"
+  integrity sha512-sauopYTSivhzXe1kAvgawkhyYJcQlK8Li3p0d2OtcCIVprOzdbard5lbqWB4xHDv83zAobt2mR08oizO2poHLQ==
+
 "@sveltejs/adapter-auto@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0.tgz#0fada089d5a21b1e7e06d853f3766e3a5d128989"
@@ -1566,6 +1571,11 @@ svelte-check@^2.9.2:
     sade "^1.7.4"
     svelte-preprocess "^4.0.0"
     typescript "*"
+
+svelte-dark-mode@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-dark-mode/-/svelte-dark-mode-2.1.0.tgz#18389f8e73d35bf7d5c27355ded6db63d2897019"
+  integrity sha512-/QmIqWGwzcfE82FAMuHBlKFwudW7Vcos60Ii8j/mJZ0H6kGAXwL5EGlcc8voBJMJv/i0QZmhp5b1ZX/XKg9NJQ==
 
 svelte-hmr@^0.15.1:
   version "0.15.1"

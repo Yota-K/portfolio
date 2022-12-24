@@ -1,4 +1,5 @@
 <script lang="ts">
+	import DropDownMenu from '$lib/components/DropDownMenu.svelte';
 	import Logo from '$lib/components/Logo.svelte';
 </script>
 
@@ -9,6 +10,6 @@
 		<h1 class="inline-block lg:w-60 py-2">
 			<Logo />
 		</h1>
-		Dropdown
+		<DropDownMenu />
 	</div>
 </header>
