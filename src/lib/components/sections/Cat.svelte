@@ -47,4 +47,6 @@
 			/>
 		</div>
 	</SectionRoot>
+{:else}
+	<div class="w-72 h-72 lg:my-6 my-4" />
 {/if}
