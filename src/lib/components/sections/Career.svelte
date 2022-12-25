@@ -7,11 +7,11 @@
 		<h3
 			class="w-1/4 pb-2 pr-4 font-bold relative after:absolute after:top-0 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"
 		>
-			2018年 3月
+			2018年3月
 		</h3>
 		<div class="border-l-2 px-6 pb-6 w-[calc(100%_-_40px)]">
 			<p class="lg:mb-10 mb-6">
-				都内の私立大学を1年遅れで卒業。（留年）
+				都内の私立大学を1年遅れ（留年）で卒業。
 				<br />
 				卒業後はウェブ制作会社で簡単なHTML・CSSコーディングをしていました。
 				<br />
@@ -24,13 +24,15 @@
 		<h3
 			class="w-1/4 pt-2 pr-4 font-bold relative after:absolute after:top-2 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"
 		>
-			2020年
+			2020年4月 〜 2021年4月
 		</h3>
 		<div class="border-l-2 px-6 pt-2 pb-6 w-[calc(100%_-_40px)]">
 			<p class="lg:mb-10 mb-6">
-				ウェブエンジニア1年目はWordPressを使ったサイト構築を主に行っていました。
+				ウェブエンジニアとしてのキャリアをスタートしました。
 				<br />
-				WordPressを用いたサイト制作と並行して、Laravelを使った社内ツールの開発や、GatsbyJSを使ったサイトのフロントエンド・バックエンド（Serverless
+				エンジニア1年目はWordPressを使った自社メディアの構築やLPの制作を主に行っていました。
+				<br />
+				サイト制作以外にも、Laravelを使った社内ツールの開発や、GatsbyJSを使ったサイトのフロントエンド・バックエンド（Serverless
 				Frameworkを使用したマイクロサービス）の改修も行いました。
 			</p>
 		</div>
@@ -40,13 +42,15 @@
 		<h3
 			class="w-1/4 pt-2 pr-4 font-bold relative after:absolute after:top-2 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"
 		>
-			2021年 〜 現在
+			2021年4月 〜 現在
 		</h3>
 		<div class="border-l-2 px-6 pt-2 pb-6 w-[calc(100%_-_40px)]">
 			<p>
-				自社SaaSアプリを開発する企業に転職して、アプリケーションのフロントエンド開発を行っています。主にTypeScript、React、NextJSを使用しています。
+				自社SaaSアプリを開発する企業に転職して、アプリケーションのフロントエンド開発を行っています。
 				<br />
-				バックエンドの人手が足りなかった時に一瞬Golangを使ったAPI開発にも携わりました。
+				主にTypeScript、React、Next.jsを使用しています。
+				<br />
+				IaCを用いたインフラの構築経験や、バックエンドの人手が足りなかった時にGolangを使ったAPI開発に携わった経験もあります。
 			</p>
 		</div>
 	</div>
