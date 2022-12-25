@@ -5,7 +5,7 @@ export type SkillInfo = {
 };
 
 // Skillsというセクションで使用するスキルごとの情報をまとめた配列
-export const allSkills: {
+export const All_SKILLS: {
 	heading: string;
 	skills: SkillInfo[];
 }[] = [
@@ -16,12 +16,10 @@ export const allSkills: {
 				title: 'HTML・CSS',
 				yearsOfExperience: '経験年数: 4年',
 				content: `
-<p>基本的な部分は抑えています。</p>
+<p>HTMLに関しては読みやすさと用途に合った適切なタグを使用したコーディングを心がけています。</p>
 <br />
-<p>HTMLに関しては、読みやすさと用途に合った適切なタグを使用したコーディングを心がけています。</p>
-<br />
-<p>CSSに関しては、保守と運用のしやすさを考慮したCSS設計を取り入れて、コーディングをすることができます。</p>
-<p>最近は、Reactを使って開発をすることが多いので、Scoped CSSを実現できるCSS in JS系のライブラリをよく使います。</p>
+<p>CSSに関しては保守と運用のしやすさを考慮したCSS設計を取り入れて、コーディングをすることができます。</p>
+<p>最近はReactを使用することが多いので、Scoped CSSを実現できるCSS in JS系のライブラリをよく使います。</p>
 <br />
 <p>積極的には導入しませんが、CSSメタ言語（SCSS）の実務経験もあります。</p>
         `
@@ -71,7 +69,7 @@ export const allSkills: {
 				content: `
 <p>ウェブ開発、ウェブ制作どちらの実務経験もあります。</p>
 <br />
-<p>SPAを構築するときはViteを、SGやSSR、SEOを意識する必要がある時はNext.jsを使用することが多いです。</p>
+<p>SPAを構築するときはViteをSGやSSR、SEOを意識する必要がある時はNext.jsを使用することが多いです。</p>
 <br />
 <p>JestやVitestを用いた単体テストの実装経験もあります。</p>
         `
@@ -106,6 +104,7 @@ export const allSkills: {
 				title: 'WordPress',
 				yearsOfExperience: '経験年数: 4年',
 				content: `
+<p>エンジニアになる前から触っていたので経験年数は長いです。</p>
 <p>実務ではテーマの開発や、管理画面のカスタマイズ、プラグイン開発の実務経験があります。</p>
 <br />
 <p>個人の開発では、Gutenbergのカスタムブロックを開発した経験もあります。</p>
@@ -122,18 +121,25 @@ export const allSkills: {
 				title: 'Docker',
 				yearsOfExperience: '経験年数: 2年',
 				content: `
-<p>LAMP環境くらいならサクッと構築できます。</p>
+<p>WordPress、LaravelなどのLAMP環境や、React、Vue.jsなどを用いたフロントエンド、AWS CDKの実行環境などの環境構築を行なった経験があります。</p>
         `
 			},
 			{
 				title: 'AWS',
 				yearsOfExperience: '経験年数: 2年',
 				content: `
-<p>基礎の基礎レベルは抑えています。</p>
+<p>メジャーなサービス（IAM・S3・CloudFront・Lambda・API Gateway・Aulora・DynamoDB・Amplify・WAFあたり）は実務で使用・構築した経験があります。</p>
+<p>CloudFront・S3のシンプルな環境ではありますが、IaCを使ったインフラ構築の経験もあります。</p>
 <br />
-<p>S3・CloudFront・Lambda・API Gateway・Amplify・WAFあたりは実務で構築・設定を行った経験があります。</p>
-<br />
-<p>あまり得意ではありません。</p>
+<p>インフラはあまり得意ではないので、今後もっと理解を深めていきたいと考えています。</p>
+        `
+			},
+			{
+				title: 'Figma',
+				yearsOfExperience: '経験年数: 1年',
+				content: `
+<p>簡単なデザインのモックやコンポーネントレベルなら作ることができます。</p>
+<p>副業でサイトのデザインを制作した経験もあります。</p>
         `
 			}
 		]
