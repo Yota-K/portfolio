@@ -10,11 +10,13 @@
 	let theme: Theme;
 	let mounted = false;
 
-	const toggle = () => (theme = theme === 'dark' ? 'light' : 'dark');
-
 	const LOCAL_STORAGE_KEY = 'theme' as const;
 
-	const toggleDarkmode = () => {
+	const changeSystemSettings = () => {
+		if (window.localStorage.getItem(LOCAL_STORAGE_KEY) !== null) {
+			window.localStorage.removeItem(LOCAL_STORAGE_KEY);
+		}
+
 		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 			theme = 'dark';
 		} else {
@@ -22,20 +24,9 @@
 		}
 	};
 
-	const removeLocalStorageItemForDarkmode = () => {
-		const getTheme = window.localStorage.getItem(LOCAL_STORAGE_KEY);
-		if (getTheme !== null) {
-			window.localStorage.removeItem(LOCAL_STORAGE_KEY);
-			toggleDarkmode();
-		}
-	};
-
 	afterUpdate(() => {
-		document.body.className = theme;
-
 		if (!mounted) mounted = true;
-		const getDarkmode = window.localStorage.getItem(LOCAL_STORAGE_KEY);
-		if (getDarkmode === null) toggleDarkmode();
+		document.documentElement.className = theme;
 	});
 </script>
 
@@ -46,7 +37,8 @@
 		class={`p-2 rounded-full transition-all ${
 			theme === 'dark' ? 'hover:bg-white/30' : 'hover:bg-black/10'
 		}`}
-		>{#if mounted}
+	>
+		{#if mounted}
 			{#if theme === 'dark'}
 				<div class="w-5 h-5 text-yellow-500">
 					<FaMoon />
@@ -75,7 +67,9 @@
 					class={`${
 						active ? 'bg-gray-100 dark:bg-violet-500 dark:text-white' : 'text-gray-900'
 					} group flex w-full items-center rounded-md px-2 py-2 text-sm dark:text-white `}
-					on:click={toggle}
+					on:click={() => {
+						theme = 'light';
+					}}
 				>
 					<div class="w-5 h-5 mr-2 text-orange-500">
 						<FaSun />
@@ -88,7 +82,9 @@
 					class={`${
 						active ? 'bg-gray-100 dark:bg-violet-500 dark:text-white' : 'text-gray-900'
 					} group flex w-full items-center rounded-md px-2 py-2 text-sm dark:text-white `}
-					on:click={toggle}
+					on:click={() => {
+						theme = 'dark';
+					}}
 				>
 					<div class="w-5 h-5 mr-2 text-yellow-500">
 						<FaMoon />
@@ -101,7 +97,7 @@
 					class={`${
 						active ? 'bg-gray-100 dark:bg-violet-500 dark:text-white' : 'text-gray-900'
 					} group flex w-full items-center rounded-md px-2 py-2 text-sm dark:text-white `}
-					on:click={removeLocalStorageItemForDarkmode}
+					on:click={() => changeSystemSettings()}
 				>
 					<div class="w-5 h-5 mr-2 text-gray-500">
 						<FaTv />
