@@ -9,4 +9,3 @@ declare namespace App {
 }
 
 declare module '@lottiefiles/svelte-lottie-player';
-declare module 'svelte-icons/fa/*.svelte';
