@@ -4,8 +4,11 @@
 
 <SectionRoot heading="Profile">
 	<div class="lg:mb-10 mb-6">
-		<ruby>カルキチ 副島</ruby>
-		<h3 class="font-bold text-xl mb-2">Karukichi Soejima</h3>
+		<div class="mb-2">
+			<span class="text-sm">カルキチ 副島</span>
+			<h3 class="font-bold text-xl">Karukichi Soejima</h3>
+			<p>Frontend web developer</p>
+		</div>
 		<div class="lg:flex lg:justify-between">
 			<div>
 				<p>東京都で活動するウェブ開発者です。</p>
