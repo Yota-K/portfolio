@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default  */
+.light {
+	background-color: rgb(255 251 235 / 1);
+}
+
+.light .logo {
+	fill: #000;
+}
+
+/* Dark mode */
+.dark {
+	background-color: rgb(17 24 39 / 1);
+}
+
+.dark .logo {
+	fill: #fff;
+}

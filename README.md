@@ -1,3 +1,4 @@
 # Portfolio
 
-My portfolio site made by GatsbyJS and tailwind css.
+My portfolio site made by Svelte and tailwind css.
+
