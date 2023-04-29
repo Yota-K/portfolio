@@ -10,6 +10,6 @@
 		<div class="mx-auto w-10/12 lg:w-6/12 ">
 			<slot />
 		</div>
-		<Footer />
 	</main>
+	<Footer />
 </div>
