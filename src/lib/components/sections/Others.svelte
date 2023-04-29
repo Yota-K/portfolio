@@ -2,6 +2,7 @@
 	import SectionRoot from '$lib/components/sections/SectionRoot.svelte';
 	import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
+	import FaPen from 'svelte-icons/fa/FaPen.svelte';
 	import FaSpeakerDeck from 'svelte-icons/fa/FaSpeakerDeck.svelte';
 
 	const INFOS = [
@@ -19,6 +20,11 @@
 			name: 'Speaker Deck',
 			componentName: FaSpeakerDeck,
 			url: 'https://speakerdeck.com/soejima0124'
+		},
+		{
+			name: 'Blog',
+			componentName: FaPen,
+			url: 'https://karukichi-blog.netlify.app/'
 		}
 	] as const;
 </script>
