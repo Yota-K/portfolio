@@ -4,7 +4,7 @@
 	import FaMoon from 'svelte-icons/fa/FaMoon.svelte';
 	import FaSun from 'svelte-icons/fa/FaSun.svelte';
 	import FaTv from 'svelte-icons/fa/FaTv.svelte';
-	import { Menu, MenuButton, MenuItems, MenuItem, Transition } from '@rgossiaux/svelte-headlessui';
+	import { Menu, MenuButton, MenuItems, MenuItem } from '@rgossiaux/svelte-headlessui';
 	import type { Theme } from 'svelte-dark-mode/types/DarkMode.svelte';
 
 	let theme: Theme;
