@@ -33,7 +33,7 @@
 	<div class="lg:mb-10 mb-6">
 		<h3 class="font-bold mb-2">好きな技術</h3>
 		<p>
-			特に、TypeScript・React・Jamstack・CSS・Serverless・Vim (Neovim)・IaC（Infrastructure as
+			特に、TypeScript・React・Next.js・CSS・Serverless・Vim (Neovim)・IaC（Infrastructure as
 			Code）に興味があります。
 		</p>
 		<p>最近はデザインにも興味が出てきました。</p>

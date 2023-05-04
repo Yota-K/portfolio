@@ -14,14 +14,13 @@ export const All_SKILLS: {
 		skills: [
 			{
 				title: 'HTML・CSS',
-				yearsOfExperience: '経験年数: 4年',
+				yearsOfExperience: '経験年数: 5年',
 				content: `
 <p>HTMLに関しては読みやすさと用途に合った適切なタグを使用したコーディングを心がけています。</p>
 <br />
 <p>CSSに関しては保守と運用のしやすさを考慮したCSS設計を取り入れて、コーディングをすることができます。</p>
-<p>最近はReactを使用することが多いので、Scoped CSSを実現できるCSS in JS系のライブラリをよく使います。</p>
 <br />
-<p>積極的には導入しませんが、CSSメタ言語（SCSS）の実務経験もあります。</p>
+<p>最近は積極的には導入しませんが、CSSメタ言語（SCSS）の実務経験もあります。</p>
         `
 			},
 			{
@@ -76,7 +75,7 @@ export const All_SKILLS: {
 			},
 			{
 				title: 'Vue.js',
-				yearsOfExperience: '経験年数: 1年',
+				yearsOfExperience: '経験年数: 2年',
 				content: `
 <p>実務ではVue3系のComposition APIを用いたSPAの構築経験があります。</p>
 <p>2系の実務経験はありませんが、読めはします。</p>
@@ -112,14 +111,14 @@ export const All_SKILLS: {
 			},
 			{
 				title: 'MySQL',
-				yearsOfExperience: '経験年数: 2年',
+				yearsOfExperience: '経験年数: 3年',
 				content: `
 <p>複雑なクエリを書くのは苦手ですが、実務で困らない程度には書けます。</p>
         `
 			},
 			{
 				title: 'Docker',
-				yearsOfExperience: '経験年数: 2年',
+				yearsOfExperience: '経験年数: 3年',
 				content: `
 <p>WordPress、LaravelなどのLAMP環境や、React、Vue.jsなどを用いたフロントエンド、AWS CDKの実行環境などの環境構築を行なった経験があります。</p>
         `
@@ -128,7 +127,7 @@ export const All_SKILLS: {
 				title: 'AWS',
 				yearsOfExperience: '経験年数: 2年',
 				content: `
-<p>メジャーなサービス（IAM・S3・CloudFront・Lambda・API Gateway・Aulora・DynamoDB・Amplify・WAFあたり）は実務で使用・構築した経験があります。</p>
+<p>メジャーなサービス（IAM・S3・CloudFront・Lambda・API Gateway・Aurora・DynamoDB・Amplify・WAFあたり）は実務で使用・構築した経験があります。</p>
 <p>CloudFront・S3のシンプルな環境ではありますが、IaCを使ったインフラ構築の経験もあります。</p>
 <br />
 <p>インフラはあまり得意ではないので、今後もっと理解を深めていきたいと考えています。</p>
@@ -139,7 +138,6 @@ export const All_SKILLS: {
 				yearsOfExperience: '経験年数: 1年',
 				content: `
 <p>簡単なデザインのモックやコンポーネントレベルなら作ることができます。</p>
-<p>副業でサイトのデザインを制作した経験もあります。</p>
         `
 			}
 		]
@@ -149,7 +147,7 @@ export const All_SKILLS: {
 		skills: [
 			{
 				title: 'Vim・Neovim',
-				yearsOfExperience: '経験年数: 3年',
+				yearsOfExperience: '経験年数: 4年',
 				content: `
 <p>プログラミングを学習し始めた2019年頃からずっとVimを使って開発を行っています。</p>
 <br />

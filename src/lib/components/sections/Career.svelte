@@ -7,6 +7,21 @@
 		<h3
 			class="w-1/4 pb-2 pr-4 font-bold relative after:absolute after:top-0 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"
 		>
+			2017年7月〜8月
+		</h3>
+		<div class="border-l-2 px-6 pb-6 w-[calc(100%_-_40px)]">
+			<p class="lg:mb-10 mb-6">
+				大学5年生の時に一般教養科目を取っていなかったことに気づき、単位を取る目的でHTML・CSS基礎という授業を履修。（当時は半分くらいしか理解できなかった）
+				<br />
+				今思えば、これが自分のウェブのキャリアの始まりでした。
+			</p>
+		</div>
+	</div>
+
+	<div class="flex content-between">
+		<h3
+			class="w-1/4 pb-2 pr-4 font-bold relative after:absolute after:top-0 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"
+		>
 			2018年3月
 		</h3>
 		<div class="border-l-2 px-6 pb-6 w-[calc(100%_-_40px)]">
@@ -15,7 +30,7 @@
 				<br />
 				卒業後はウェブ制作会社で簡単なHTML・CSSコーディングをしていました。
 				<br />
-				コーディング以外にも記事案の執筆も行っていました。
+				コーディング以外にも記事案の見出しを考えてライターさんに発注する業務も行っていました。
 			</p>
 		</div>
 	</div>
