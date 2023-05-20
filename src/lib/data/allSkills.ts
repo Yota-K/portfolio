@@ -127,10 +127,10 @@ export const All_SKILLS: {
 				title: 'AWS',
 				yearsOfExperience: '経験年数: 2年',
 				content: `
-<p>メジャーなサービス（IAM・S3・CloudFront・Lambda・API Gateway・Aurora・DynamoDB・Amplify・WAFあたり）は実務で使用・構築した経験があります。</p>
-<p>CloudFront・S3のシンプルな環境ではありますが、IaCを使ったインフラ構築の経験もあります。</p>
+<p>AWS Certified Solutions Architect - Associate(SAA-C03)を持っています。</p>
 <br />
-<p>インフラはあまり得意ではないので、今後もっと理解を深めていきたいと考えています。</p>
+<p>実務ではIAM・S3・CloudFront・Lambda・API Gateway・Aurora・DynamoDB・Amplify・WAFなどを使用・構築した経験があります。</p>
+<p>CloudFront・S3のシンプルな環境ではありますが、IaCを使ったインフラ構築の経験もあります。</p>
         `
 			},
 			{
