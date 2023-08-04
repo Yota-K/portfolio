@@ -29,7 +29,9 @@
 			leaveFrom="opacity-100"
 			leaveTo="opacity-0"
 		>
-			<DialogOverlay class="fixed inset-0 bg-black bg-opacity-25" />
+			<DialogOverlay
+				class="fixed inset-0 bg-black dark:bg-white bg-opacity-25 dark:bg-opacity-25"
+			/>
 		</TransitionChild>
 
 		<!-- ...and another `TransitionChild` to apply a separate transition to the contents -->
