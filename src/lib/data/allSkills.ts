@@ -88,7 +88,7 @@ export const All_SKILLS: {
 <p>Serverless Frameworkを使用したマイクロサービスの改修経験があります。</p>
 <p>AWS SESを使ったメール送信を行う処理の実装経験もあります。</p>
 <br />
-<p>個人開発では、NestJSやPrismaを使用した経験があります。</p>
+<p>現在は副業で、Apollo ServerとGraphQLを使用したサーバ実装に携わっています。</p>
         `
 			},
 			{
