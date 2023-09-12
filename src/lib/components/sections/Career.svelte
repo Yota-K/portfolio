@@ -59,16 +59,27 @@
 		<h3
 			class="w-1/4 pt-2 pr-4 font-bold relative after:absolute after:top-2 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"
 		>
-			2021年4月 〜 現在
+			2021年4月 〜 2023年9月
 		</h3>
 		<div class="border-l-2 px-6 pt-2 pb-6 w-[calc(100%_-_40px)]">
 			<p>
-				自社SaaSアプリを開発する企業に転職して、アプリケーションのフロントエンド開発を行っています。
+				自社SaaSアプリを開発する企業に転職して、アプリケーションのフロントエンド開発を行っていました。
 				<br />
-				主にTypeScript、React、Next.jsを使用しています。
+				主にTypeScript、React、Next.jsを使用していました。
 				<br />
-				IaCを用いたインフラの構築経験や、バックエンドの人手が足りなかった時にGolangを使ったAPI開発に携わった経験もあります。
+				IaCを用いたインフラの構築経験や、バックエンドの人手が足りなかった時にGolangを使ったAPI開発に携わりました。
 			</p>
+		</div>
+	</div>
+
+	<div class="flex content-between">
+		<h3
+			class="w-1/4 pt-2 pr-4 font-bold relative after:absolute after:top-2 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"
+		>
+			2023年10月 〜
+		</h3>
+		<div class="border-l-2 px-6 pt-2 pb-6 w-[calc(100%_-_40px)]">
+			<p>満を持して、念願だったフリーランスエンジニアに転向。</p>
 		</div>
 	</div>
 </SectionRoot>
