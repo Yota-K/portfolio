@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^3.54.0
     version: 3.54.0
   svelte-check:
-    specifier: ^2.9.2
-    version: 2.9.2(postcss@8.4.20)(svelte@3.54.0)
+    specifier: ^2.10.3
+    version: 2.10.3(postcss@8.4.20)(svelte@3.54.0)
   svelte-dark-mode:
     specifier: ^2.1.0
     version: 2.1.0
@@ -1829,8 +1829,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@2.9.2(postcss@8.4.20)(svelte@3.54.0):
-    resolution: {integrity: sha512-DRi8HhnCiqiGR2YF9ervPGvtoYrheE09cXieCTEqeTPOTJzfoa54Py8rovIBv4bH4n5HgZYIyTQ3DDLHQLl2uQ==}
+  /svelte-check@2.10.3(postcss@8.4.20)(svelte@3.54.0):
+    resolution: {integrity: sha512-Nt1aWHTOKFReBpmJ1vPug0aGysqPwJh2seM1OvICfM2oeyaA62mOiy5EvkXhltGfhCcIQcq2LoE0l1CwcWPjlw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
