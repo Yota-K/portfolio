@@ -14,7 +14,7 @@ export const All_SKILLS: {
     skills: [
       {
         title: 'HTML・CSS',
-        yearsOfExperience: '経験年数: 5年',
+        yearsOfExperience: '経験年数: 6年',
         content: `
 <p>HTMLに関しては読みやすさと用途に合った適切なタグを使用したコーディングを心がけています。</p>
 <br />
@@ -25,7 +25,7 @@ export const All_SKILLS: {
       },
       {
         title: 'JavaScript',
-        yearsOfExperience: '経験年数: 3年',
+        yearsOfExperience: '経験年数: 4年',
         content: `
 <p>基本的な部分は抑えています。</p>
 <p>最近はTypeScriptを使うことがほとんどなので、ピュアなJSを使用する機会はほとんどありません。</p>
@@ -33,7 +33,7 @@ export const All_SKILLS: {
       },
       {
         title: 'TypeScript',
-        yearsOfExperience: '経験年数: 2年',
+        yearsOfExperience: '経験年数: 3年',
         content: `
 <p>メインで使用しているプログラミング言語です。</p>
 <p>フロントエンド・バックエンド、ウェブ制作・ウェブ開発問わずよく使用します。</p>
@@ -56,6 +56,13 @@ export const All_SKILLS: {
 <p>実務でAPIを開発した経験はありますが、詳しくはありません。</p>
 <p>実務で使用した時はググりまくって、なんとか乗り切りました。</p>
         `
+      },
+      {
+        title: 'Lua',
+        yearsOfExperience: '経験年数: 1年',
+        content: `
+<p>実務では使いませんが、OSSにコントリビュートした経験があります。</p>
+        `
       }
     ]
   },
@@ -64,7 +71,7 @@ export const All_SKILLS: {
     skills: [
       {
         title: 'React',
-        yearsOfExperience: '経験年数: 3年',
+        yearsOfExperience: '経験年数: 4年',
         content: `
 <p>ウェブ開発、ウェブ制作どちらの実務経験もあります。</p>
 <br />
@@ -83,7 +90,7 @@ export const All_SKILLS: {
       },
       {
         title: 'Node.js',
-        yearsOfExperience: '経験年数: 2年',
+        yearsOfExperience: '経験年数: 3年',
         content: `
 <p>Serverless Frameworkを使用したマイクロサービスの改修経験があります。</p>
 <p>AWS SESを使ったメール送信を行う処理の実装経験もあります。</p>
@@ -111,21 +118,23 @@ export const All_SKILLS: {
       },
       {
         title: 'MySQL',
-        yearsOfExperience: '経験年数: 3年',
+        yearsOfExperience: '経験年数: 4年',
         content: `
 <p>複雑なクエリを書くのは苦手ですが、実務で困らない程度には書けます。</p>
         `
       },
       {
         title: 'Docker',
-        yearsOfExperience: '経験年数: 3年',
+        yearsOfExperience: '経験年数: 4年',
         content: `
 <p>WordPress、LaravelなどのLAMP環境や、React、Vue.jsなどを用いたフロントエンド、AWS CDKの実行環境などの環境構築を行なった経験があります。</p>
+<br />
+<p>ECS上で動作するコンテナイメージの作成を行った経験もあります</p>
         `
       },
       {
         title: 'AWS',
-        yearsOfExperience: '経験年数: 2年',
+        yearsOfExperience: '経験年数: 3年',
         content: `
 <p>AWS Certified Solutions Architect - Associate(SAA-C03)を持っています。</p>
 <br />
@@ -147,7 +156,7 @@ export const All_SKILLS: {
     skills: [
       {
         title: 'Vim・Neovim',
-        yearsOfExperience: '経験年数: 4年',
+        yearsOfExperience: '経験年数: 5年',
         content: `
 <p>プログラミングを学習し始めた2019年頃からずっとVimを使って開発を行っています。</p>
 <br />
