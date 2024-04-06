@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@rgossiaux/svelte-headlessui':
-    specifier: ^1.0.2
-    version: 1.0.2(svelte@3.54.0)
+    specifier: ^2.0.0
+    version: 2.0.0(svelte@3.54.0)
   '@sveltejs/adapter-auto':
     specifier: ^2.0.1
     version: 2.0.1(@sveltejs/kit@1.15.9)
@@ -398,10 +398,10 @@ packages:
     resolution: {integrity: sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==}
     dev: true
 
-  /@rgossiaux/svelte-headlessui@1.0.2(svelte@3.54.0):
-    resolution: {integrity: sha512-sauopYTSivhzXe1kAvgawkhyYJcQlK8Li3p0d2OtcCIVprOzdbard5lbqWB4xHDv83zAobt2mR08oizO2poHLQ==}
+  /@rgossiaux/svelte-headlessui@2.0.0(svelte@3.54.0):
+    resolution: {integrity: sha512-ksh245HqMM8yqkzd/OyAK2FCHZYOSA3ldLIHab7C9S60FmifqT24JFVgi8tZpsDEMk3plbfQvfah93n5IEi8sg==}
     peerDependencies:
-      svelte: ^3.44.0
+      svelte: ^3.47.0
     dependencies:
       svelte: 3.54.0
     dev: true
