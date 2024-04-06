@@ -44,16 +44,8 @@ devDependencies:
     specifier: ^2.8.8
     version: 2.8.8
   prettier-plugin-svelte:
-<<<<<<< HEAD
     specifier: ^2.10.1
-    version: 2.10.1(prettier@2.8.0)(svelte@3.54.0)
-||||||| f977d41
-    specifier: ^2.8.1
-    version: 2.8.1(prettier@2.8.0)(svelte@3.54.0)
-=======
-    specifier: ^2.8.1
-    version: 2.8.1(prettier@2.8.8)(svelte@3.54.0)
->>>>>>> main
+    version: 2.10.1(prettier@2.8.8)(svelte@3.54.0)
   svelte:
     specifier: ^3.54.0
     version: 3.54.0
@@ -1812,16 +1804,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-<<<<<<< HEAD
-  /prettier-plugin-svelte@2.10.1(prettier@2.8.0)(svelte@3.54.0):
+  /prettier-plugin-svelte@2.10.1(prettier@2.8.8)(svelte@3.54.0):
     resolution: {integrity: sha512-Wlq7Z5v2ueCubWo0TZzKc9XHcm7TDxqcuzRuGd0gcENfzfT4JZ9yDlCbEgxWgiPmLHkBjfOtpAWkcT28MCDpUQ==}
-||||||| f977d41
-  /prettier-plugin-svelte@2.8.1(prettier@2.8.0)(svelte@3.54.0):
-    resolution: {integrity: sha512-KA3K1J3/wKDnCxW7ZDRA/QL2Q67N7Xs3gOERqJ5X1qFjq1DdnN3K1R29scSKwh+kA8FF67pXbYytUpvN/i3iQw==}
-=======
-  /prettier-plugin-svelte@2.8.1(prettier@2.8.8)(svelte@3.54.0):
-    resolution: {integrity: sha512-KA3K1J3/wKDnCxW7ZDRA/QL2Q67N7Xs3gOERqJ5X1qFjq1DdnN3K1R29scSKwh+kA8FF67pXbYytUpvN/i3iQw==}
->>>>>>> main
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0
