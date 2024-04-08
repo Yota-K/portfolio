@@ -15,7 +15,7 @@
 		"@rgossiaux/svelte-headlessui": "^2.0.0",
     "@sveltejs/adapter-auto": "^2.0.1",
     "@sveltejs/kit": "^1.15.9",
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.28.0",
