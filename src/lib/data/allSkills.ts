@@ -47,8 +47,8 @@ export const All_SKILLS: {
       {
         title: 'Golang',
         content: `
-<p>実務でAPIを開発した経験はありますが、詳しくはありません。</p>
-<p>実務で使用した時はググりまくって、なんとか乗り切りました。</p>
+<p>実務でAPIを開発した経験があります。</p>
+<p>個人的に好きな言語なので、実務経験をもっと積みたいと密かに思っています。</p>
         `
       },
       {
@@ -69,7 +69,7 @@ export const All_SKILLS: {
 <br />
 <p>SPAを構築するときはViteをSGやSSR、SEOを意識する必要がある時はNext.jsを使用することが多いです。</p>
 <br />
-<p>JestやVitestを用いた単体テストの実装経験もあります。</p>
+<p>JestやVitestを用いた単体テストの実装経験や、storybookのplay functionを活用したインタラクションテストの実装経験もあります。</p>
         `
       },
       {
@@ -82,10 +82,26 @@ export const All_SKILLS: {
       {
         title: 'Node.js',
         content: `
-<p>Serverless Frameworkを使用したマイクロサービスの改修経験があります。</p>
-<p>AWS SESを使ったメール送信を行う処理の実装経験もあります。</p>
+<p>APIの開発実装や、Serverless Frameworkを使用したマイクロサービスの改修経験があります。</p>
 <br />
-<p>現在は副業で、Apollo ServerとGraphQLを使用したサーバ実装に携わっています。</p>
+<p>プレゼンテーション層、ビジネスロジック層、データアクセス層を取り入れた、いわゆる3層アーキテクチャに慣れ親しんでいます。</p>
+        `
+      },
+      {
+        title: 'SQL',
+        content: `
+<p>実務では、MySQLとPostgreSQLを使用した経験があります。</p>
+<p>複雑なクエリを書くのは苦手ですが、実務で困らない程度には書けます。</p>
+        `
+      },
+      {
+        title: 'GraphQL',
+        content: `
+<p>フロントエンドでの実務経験があります。</p>
+<br />
+<p>Fragment Colocationを活用したコンポーネント設計を行った経験があります。</p>
+<br />
+<p>サーバ側は趣味レベルで書いたことがある程度です。</p>
         `
       },
       {
@@ -105,12 +121,6 @@ export const All_SKILLS: {
         `
       },
       {
-        title: 'MySQL',
-        content: `
-<p>複雑なクエリを書くのは苦手ですが、実務で困らない程度には書けます。</p>
-        `
-      },
-      {
         title: 'Docker',
         content: `
 <p>WordPress、LaravelなどのLAMP環境や、React、Vue.jsなどを用いたフロントエンド、AWS CDKの実行環境などの環境構築を行なった経験があります。</p>
@@ -123,7 +133,8 @@ export const All_SKILLS: {
         content: `
 <p>AWS Certified Solutions Architect - Associate(SAA-C03)を持っています。</p>
 <br />
-<p>実務ではIAM・S3・CloudFront・Lambda・API Gateway・Aurora・DynamoDB・Amplify・WAFなどを使用・構築した経験があります。</p>
+<p>実務ではIAM・S3・CloudFront・Cognito・Lambda・API Gateway・Aurora・DynamoDB・Amplify・WAFなどを使用・構築した経験があります。</p>
+<br />
 <p>CloudFront・S3のシンプルな環境ではありますが、IaCを使ったインフラ構築の経験もあります。</p>
         `
       },
