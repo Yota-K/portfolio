@@ -1,29 +1,26 @@
 <script lang="ts">
   import SectionRoot from '$lib/components/sections/SectionRoot.svelte';
-  import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte';
-  import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
-  import FaPen from 'svelte-icons/fa/FaPen.svelte';
-  import FaSpeakerDeck from 'svelte-icons/fa/FaSpeakerDeck.svelte';
+  import Icon from '@iconify/svelte';
 
   const INFOS = [
     {
       name: '@karukichi_yah',
-      componentName: FaTwitter,
+      componentName: 'prime:twitter',
       url: 'https://twitter.com/karukichi_yah'
     },
     {
       name: 'GitHub',
-      componentName: FaGithub,
+      componentName: 'bi:github',
       url: 'https://github.com/Yota-K'
     },
     {
       name: 'Speaker Deck',
-      componentName: FaSpeakerDeck,
+      componentName: 'simple-icons:speakerdeck',
       url: 'https://speakerdeck.com/soejima0124'
     },
     {
       name: 'Blog',
-      componentName: FaPen,
+      componentName: 'solar:pen-bold',
       url: 'https://karukichi-blog.netlify.app/'
     }
   ] as const;
@@ -40,7 +37,7 @@
           rel="noopener noreferrer"
         >
           <span class="inline-block align-middle pr-1 h-4">
-            <svelte:component this={info.componentName} />
+            <Icon icon={info.componentName} />
           </span>
           <span>{info.name}</span>
         </a>
