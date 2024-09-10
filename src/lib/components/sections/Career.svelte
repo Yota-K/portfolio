@@ -65,9 +65,9 @@
       <p>
         自社SaaSアプリを開発する企業に転職して、アプリケーションのフロントエンド開発を行っていました。
         <br />
-        主にTypeScript、React、Next.jsを使用していました。
+        主にTypeScript、React、Vite、Next.jsを使用していました。
         <br />
-        IaCを用いたインフラの構築経験や、バックエンドの人手が足りなかった時にGolangを使ったAPI開発に携わりました。
+        IaCを用いたインフラの構築経験や、バックエンドの人手が足りなかった時にGolangを使ったAPI開発にも携わりました。
       </p>
     </div>
   </div>
@@ -79,7 +79,14 @@
       2023年10月 〜
     </h3>
     <div class="border-l-2 px-6 pt-2 pb-6 w-[calc(100%_-_40px)]">
-      <p>満を持して、念願だったフリーランスエンジニアに転向。</p>
+      <p>
+        会社を辞めて、フリーランスエンジニアになりました。
+        <br />
+        Next.jsのApp Routerを使用した不動産サイトの構築や、TypeScript・React・Vite・GraphQLを使ったtoBe向けアプリケーションのフロントエンドの開発経験があります。
+        <br />
+        フロントエンド以外だと、Node.jsを使用したAPIの開発をしたり、GitHub Actionsを使用したCI・CDの整備を行ったり、AWS
+        Cognitoを使用した認証基盤の整備を行ったり色々な経験を積ませていただいています。
+      </p>
     </div>
   </div>
 </SectionRoot>
