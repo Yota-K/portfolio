@@ -10,7 +10,7 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      TwitterのDM
+      XのDM
     </a>
     までお願いします。
   </p>
