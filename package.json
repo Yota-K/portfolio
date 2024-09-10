@@ -16,6 +16,7 @@
     "@lottiefiles/svelte-lottie-player": "^0.3.0"
   },
   "devDependencies": {
+    "@iconify/svelte": "^4.0.2",
     "@rgossiaux/svelte-headlessui": "^2.0.0",
     "@sveltejs/adapter-auto": "^2.0.1",
     "@sveltejs/kit": "^1.15.9",
