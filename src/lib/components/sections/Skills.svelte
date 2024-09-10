@@ -3,13 +3,11 @@
   import Button from '$lib/components/Button.svelte';
   import Modal from '$lib/components/Modal.svelte';
   import { All_SKILLS } from '$lib/data/allSkills';
-
-  type SkillInfo = typeof All_SKILLS[0]['skills'][0];
+  import type { SkillInfo } from '$lib/data/allSkills';
 
   let isOpen = false;
   let skillInfo: SkillInfo = {
     title: '',
-    yearsOfExperience: '',
     content: ''
   };
 
@@ -17,7 +15,6 @@
     skillInfo = {
       ...skillInfo,
       title: skill.title,
-      yearsOfExperience: skill.yearsOfExperience,
       content: skill.content
     };
     isOpen = true;
@@ -45,7 +42,6 @@
 
   <Modal
     title={skillInfo.title}
-    subTitle={skillInfo.yearsOfExperience}
     content={skillInfo.content}
     {isOpen}
     closeModal={() => (isOpen = false)}

@@ -3,14 +3,12 @@
     Dialog,
     DialogOverlay,
     DialogTitle,
-    DialogDescription,
     Transition,
     TransitionChild
   } from '@rgossiaux/svelte-headlessui';
   import Button from '$lib/components/Button.svelte';
 
   export let title: string;
-  export let subTitle: string;
   export let content: string;
   export let isOpen: boolean;
   export let closeModal: () => boolean;
@@ -51,7 +49,6 @@
             >{title}</DialogTitle
           >
           <div class="mt-2">
-            <DialogDescription as="h3">{subTitle}</DialogDescription>
             <div class="text-sm text-gray-500">{@html content}</div>
           </div>
 
