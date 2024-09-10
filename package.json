@@ -1,7 +1,8 @@
 {
   "name": "portfolio",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -11,8 +12,11 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write ."
   },
+  "dependencies": {
+    "@lottiefiles/svelte-lottie-player": "^0.3.0"
+  },
   "devDependencies": {
-		"@rgossiaux/svelte-headlessui": "^2.0.0",
+    "@rgossiaux/svelte-headlessui": "^2.0.0",
     "@sveltejs/adapter-auto": "^2.0.1",
     "@sveltejs/kit": "^1.15.9",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
@@ -22,7 +26,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "postcss": "^8.4.20",
-		"prettier": "^2.8.8",
+    "prettier": "^2.8.8",
     "prettier-plugin-svelte": "^2.10.1",
     "svelte": "^3.54.0",
     "svelte-check": "^2.10.3",
@@ -32,9 +36,5 @@
     "tslib": "^2.4.1",
     "typescript": "^4.9.5",
     "vite": "^4.0.0"
-  },
-  "type": "module",
-  "dependencies": {
-    "@lottiefiles/svelte-lottie-player": "^0.3.0"
   }
 }
