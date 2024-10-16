@@ -1,9 +1,9 @@
 <script lang="ts">
   import { afterUpdate } from 'svelte';
   import DarkMode from 'svelte-dark-mode';
-  import FaMoon from 'svelte-icons/fa/FaMoon.svelte';
-  import FaSun from 'svelte-icons/fa/FaSun.svelte';
-  import FaTv from 'svelte-icons/fa/FaTv.svelte';
+  import { Icon } from 'svelte-icons-pack';
+  import { AiFillMoon, AiFillSun } from 'svelte-icons-pack/dist/ai';
+  import { FaSolidTv } from 'svelte-icons-pack/dist/fa';
   import { Menu, MenuButton, MenuItems, MenuItem } from '@rgossiaux/svelte-headlessui';
   import type { Theme } from 'svelte-dark-mode/types/DarkMode.svelte';
 
@@ -40,13 +40,13 @@
       }`}
     >
       {#if theme === 'dark'}
-        <div class="w-5 h-5 text-yellow-500">
-          <FaMoon />
+        <div class="text-yellow-500">
+          <Icon src={AiFillMoon} className="text-yellow-500" />
         </div>
       {/if}
       {#if theme === 'light'}
-        <div class="w-5 h-5 text-orange-500">
-          <FaSun />
+        <div class="text-orange-500">
+          <Icon src={AiFillSun} />
         </div>
       {/if}
     </MenuButton>
@@ -64,10 +64,10 @@
           theme = 'light';
         }}
       >
-        <div class="w-5 h-5 mr-2 text-orange-500">
-          <FaSun />
+        <div class="mr-2 text-orange-500">
+          <Icon src={AiFillSun} />
         </div>
-        Light
+        <p>Light</p>
       </button>
     </MenuItem>
     <MenuItem let:active>
@@ -79,10 +79,10 @@
           theme = 'dark';
         }}
       >
-        <div class="w-5 h-5 mr-2 text-yellow-500">
-          <FaMoon />
+        <div class="mr-2 text-yellow-500">
+          <Icon src={AiFillMoon} />
         </div>
-        Dark
+        <p>Dark</p>
       </button>
     </MenuItem>
     <MenuItem let:active>
@@ -92,10 +92,10 @@
         } group flex w-full items-center rounded-md px-2 py-2 text-sm dark:text-white `}
         on:click={() => changeSystemSettings()}
       >
-        <div class="w-5 h-5 mr-2 text-gray-500">
-          <FaTv />
+        <div class="mr-2 text-gray-500">
+          <Icon src={FaSolidTv} />
         </div>
-        System
+        <p>System</p>
       </button>
     </MenuItem>
   </MenuItems>

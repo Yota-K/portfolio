@@ -1,29 +1,32 @@
 <script lang="ts">
   import SectionRoot from '$lib/components/sections/SectionRoot.svelte';
-  import Icon from '@iconify/svelte';
+  import { Icon } from 'svelte-icons-pack';
+  import { BsTwitterX, BsGithub, BsPen } from 'svelte-icons-pack/dist/bs';
+  import { FaBrandsSpeakerDeck } from 'svelte-icons-pack/dist/fa';
+  import type { IconType } from 'svelte-icons-pack';
 
   const INFOS = [
     {
       name: '@karukichi_yah',
-      componentName: 'prime:twitter',
+      componentName: BsTwitterX,
       url: 'https://twitter.com/karukichi_yah'
     },
     {
       name: 'GitHub',
-      componentName: 'bi:github',
+      componentName: BsGithub,
       url: 'https://github.com/Yota-K'
     },
     {
       name: 'Speaker Deck',
-      componentName: 'simple-icons:speakerdeck',
+      componentName: FaBrandsSpeakerDeck,
       url: 'https://speakerdeck.com/soejima0124'
     },
     {
       name: 'Blog',
-      componentName: 'solar:pen-bold',
+      componentName: BsPen,
       url: 'https://karukichi-blog.netlify.app/'
     }
-  ] as const;
+  ] as const satisfies { name: string; componentName: IconType; url: string }[];
 </script>
 
 <SectionRoot heading="Others">
@@ -37,7 +40,7 @@
           rel="noopener noreferrer"
         >
           <span class="inline-block align-middle pr-1 h-4">
-            <Icon icon={info.componentName} />
+            <Icon src={info.componentName} />
           </span>
           <span>{info.name}</span>
         </a>
