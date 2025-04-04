@@ -3,6 +3,20 @@
 </script>
 
 <SectionRoot heading="Career">
+  <div class="mb-6">
+    <p>
+      詳しい経歴を知りたい方は
+      <a
+        class="text-blue-600 hover:underline"
+        href="https://www.notion.so/1c12a367e430809bb589e935cfb58285"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        こちら
+      </a>
+      をご確認ください。
+    </p>
+  </div>
   <div class="flex content-between">
     <h3
       class="w-1/4 pb-2 pr-4 font-bold relative after:absolute after:top-0 after:-right-[11px] after:w-5 after:h-5 after:bg-blue-500 after:rounded-full"

@@ -55,6 +55,7 @@ export const All_SKILLS: {
         title: 'Lua',
         content: `
 <p>実務では使いませんが、OSSにコントリビュートした経験があります。</p>
+<a class="text-blue-600 hover:underline" href="https://github.com/dinhhuy258/git.nvim" target="_blank" rel="noopener noreferrer">git.nvim</a>
         `
       }
     ]
@@ -67,7 +68,7 @@ export const All_SKILLS: {
         content: `
 <p>ウェブ開発、ウェブ制作どちらの実務経験もあります。</p>
 <br />
-<p>SPAを構築するときはViteをSGやSSR、SEOを意識する必要がある時はNext.jsを使用することが多いです。</p>
+<p>SPAを構築するときはViteをSGやSSR、SEOを意識する必要がある時はRemix, Next.jsのようなFWを使用することが多いです。</p>
 <br />
 <p>JestやVitestを用いた単体テストの実装経験や、storybookのplay functionを活用したインタラクションテストの実装経験もあります。</p>
         `

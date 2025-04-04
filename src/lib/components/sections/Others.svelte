@@ -3,6 +3,7 @@
   import { Icon } from 'svelte-icons-pack';
   import { BsTwitterX, BsGithub, BsPen } from 'svelte-icons-pack/dist/bs';
   import { FaBrandsSpeakerDeck } from 'svelte-icons-pack/dist/fa';
+  import { SiNotion } from 'svelte-icons-pack/dist/si';
   import type { IconType } from 'svelte-icons-pack';
 
   const INFOS = [
@@ -25,6 +26,11 @@
       name: 'Blog',
       componentName: BsPen,
       url: 'https://karukichi-blog.netlify.app/'
+    },
+    {
+      name: 'Resume',
+      componentName: SiNotion,
+      url: 'https://www.notion.so/1c12a367e430809bb589e935cfb58285'
     }
   ] as const satisfies { name: string; componentName: IconType; url: string }[];
 </script>
