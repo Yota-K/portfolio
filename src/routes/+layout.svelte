@@ -7,7 +7,7 @@
 <div class="flex flex-col h-screen bg-red-200">
   <Header />
   <main class="flex-1 bg-amber-50 pt-20 dark:bg-gray-900 dark:text-white">
-    <div class="mx-auto w-10/12 lg:w-6/12 ">
+    <div class="mx-auto w-10/12 lg:w-6/12">
       <slot />
     </div>
   </main>
