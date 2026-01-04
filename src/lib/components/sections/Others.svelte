@@ -1,38 +1,34 @@
 <script lang="ts">
   import SectionRoot from '$lib/components/sections/SectionRoot.svelte';
-  import { Icon } from 'svelte-icons-pack';
-  import { BsTwitterX, BsGithub, BsPen } from 'svelte-icons-pack/dist/bs';
-  import { FaBrandsSpeakerDeck } from 'svelte-icons-pack/dist/fa';
-  import { SiNotion } from 'svelte-icons-pack/dist/si';
-  import type { IconType } from 'svelte-icons-pack';
+  import { X, Github, Presentation, Pen, FileText } from 'lucide-svelte';
 
   const INFOS = [
     {
       name: '@karukichi_yah',
-      componentName: BsTwitterX,
+      componentName: X,
       url: 'https://twitter.com/karukichi_yah'
     },
     {
       name: 'GitHub',
-      componentName: BsGithub,
+      componentName: Github,
       url: 'https://github.com/Yota-K'
     },
     {
       name: 'Speaker Deck',
-      componentName: FaBrandsSpeakerDeck,
+      componentName: Presentation,
       url: 'https://speakerdeck.com/soejima0124'
     },
     {
       name: 'Blog',
-      componentName: BsPen,
+      componentName: Pen,
       url: 'https://karukichi-blog.netlify.app/'
     },
     {
       name: 'Resume',
-      componentName: SiNotion,
+      componentName: FileText,
       url: 'https://www.notion.so/1c12a367e430809bb589e935cfb58285'
     }
-  ] as const satisfies { name: string; componentName: IconType; url: string }[];
+  ] as const;
 </script>
 
 <SectionRoot heading="Others">
@@ -45,8 +41,8 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span class="inline-block align-middle pr-1 h-4">
-            <Icon src={info.componentName} />
+          <span class="inline-block align-middle pr-1">
+            <svelte:component this={info.componentName} size={16} />
           </span>
           <span>{info.name}</span>
         </a>
