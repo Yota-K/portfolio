@@ -30,7 +30,7 @@ devDependencies:
     version: 5.62.0(eslint@8.28.0)(typescript@4.9.5)
   autoprefixer:
     specifier: 10.4.19
-    version: 10.4.19(postcss@8.4.20)
+    version: 10.4.19(postcss@8.5.6)
   bits-ui:
     specifier: 2.15.2
     version: 2.15.2(@internationalized/date@3.10.1)(@sveltejs/kit@2.49.2)(svelte@5.46.1)
@@ -44,8 +44,8 @@ devDependencies:
     specifier: 4.0.0
     version: 4.0.0(eslint@8.28.0)(svelte@5.46.1)
   postcss:
-    specifier: 8.4.20
-    version: 8.4.20
+    specifier: 8.5.6
+    version: 8.5.6
   prettier:
     specifier: 2.8.8
     version: 2.8.8
@@ -57,13 +57,13 @@ devDependencies:
     version: 5.46.1
   svelte-check:
     specifier: 3.8.6
-    version: 3.8.6(postcss@8.4.20)(svelte@5.46.1)
+    version: 3.8.6(postcss@8.5.6)(svelte@5.46.1)
   svelte-dark-mode:
     specifier: 2.1.0
     version: 2.1.0
   svelte-preprocess:
     specifier: 6.0.3
-    version: 6.0.3(postcss@8.4.20)(svelte@5.46.1)(typescript@4.9.5)
+    version: 6.0.3(postcss@8.5.6)(svelte@5.46.1)(typescript@4.9.5)
   tailwindcss:
     specifier: 3.4.1
     version: 3.4.1
@@ -955,7 +955,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer@10.4.19(postcss@8.4.20):
+  /autoprefixer@10.4.19(postcss@8.5.6):
     resolution: {integrity: sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -967,7 +967,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.4.20
+      postcss: 8.5.6
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -1958,15 +1958,6 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.20:
-    resolution: {integrity: sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.11
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
-    dev: true
-
   /postcss@8.5.6:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2232,7 +2223,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.8.6(postcss@8.4.20)(svelte@5.46.1):
+  /svelte-check@3.8.6(postcss@8.5.6)(svelte@5.46.1):
     resolution: {integrity: sha512-ij0u4Lw/sOTREP13BdWZjiXD/BlHE6/e2e34XzmVmsp5IN4kVa3PWP65NM32JAgwjZlwBg/+JtiNV1MM8khu0Q==}
     hasBin: true
     peerDependencies:
@@ -2243,7 +2234,7 @@ packages:
       picocolors: 1.1.1
       sade: 1.8.1
       svelte: 5.46.1
-      svelte-preprocess: 5.1.4(postcss@8.4.20)(svelte@5.46.1)(typescript@5.9.3)
+      svelte-preprocess: 5.1.4(postcss@8.5.6)(svelte@5.46.1)(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -2261,7 +2252,7 @@ packages:
     resolution: {integrity: sha512-/QmIqWGwzcfE82FAMuHBlKFwudW7Vcos60Ii8j/mJZ0H6kGAXwL5EGlcc8voBJMJv/i0QZmhp5b1ZX/XKg9NJQ==}
     dev: true
 
-  /svelte-preprocess@5.1.4(postcss@8.4.20)(svelte@5.46.1)(typescript@5.9.3):
+  /svelte-preprocess@5.1.4(postcss@8.5.6)(svelte@5.46.1)(typescript@5.9.3):
     resolution: {integrity: sha512-IvnbQ6D6Ao3Gg6ftiM5tdbR6aAETwjhHV+UKGf5bHGYR69RQvF1ho0JKPcbUON4vy4R7zom13jPjgdOWCQ5hDA==}
     engines: {node: '>= 16.0.0'}
     requiresBuild: true
@@ -2302,14 +2293,14 @@ packages:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
       magic-string: 0.30.21
-      postcss: 8.4.20
+      postcss: 8.5.6
       sorcery: 0.11.1
       strip-indent: 3.0.0
       svelte: 5.46.1
       typescript: 5.9.3
     dev: true
 
-  /svelte-preprocess@6.0.3(postcss@8.4.20)(svelte@5.46.1)(typescript@4.9.5):
+  /svelte-preprocess@6.0.3(postcss@8.5.6)(svelte@5.46.1)(typescript@4.9.5):
     resolution: {integrity: sha512-PLG2k05qHdhmRG7zR/dyo5qKvakhm8IJ+hD2eFRQmMLHp7X3eJnjeupUtvuRpbNiF31RjVw45W+abDwHEmP5OA==}
     engines: {node: '>= 18.0.0'}
     requiresBuild: true
@@ -2347,7 +2338,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      postcss: 8.4.20
+      postcss: 8.5.6
       svelte: 5.46.1
       typescript: 4.9.5
     dev: true
