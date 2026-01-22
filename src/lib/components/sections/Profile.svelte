@@ -35,9 +35,9 @@
   <div class="lg:mb-10 mb-6">
     <h3 class="text-xl font-bold mb-2">関心のある技術</h3>
     <ul class="list-disc ml-4">
-      <li>Web Frontend (React, Remix)</li>
-      <li>Backend (Node.js, Golang)</li>
-      <li>AWS (触ったことないけど、GCPも)</li>
+      <li>Web Frontend (React)</li>
+      <li>Backend (Node.js, Go)</li>
+      <li>AWS・Google Cloud等のパブリッククラウド</li>
       <li>IaC (Infrastructure as Code)</li>
       <li>Cloudflare</li>
       <li>Vim (Neovim)</li>

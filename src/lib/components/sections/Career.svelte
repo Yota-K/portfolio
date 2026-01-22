@@ -81,7 +81,7 @@
         <br />
         主にTypeScript、React、Vite、Next.jsを使用していました。
         <br />
-        IaCを用いたインフラの構築経験や、バックエンドの人手が足りなかった時にGolangを使ったAPI開発にも携わりました。
+        IaCを用いたインフラの構築経験や、バックエンドの人手が足りなかった時にGoを使ったAPI開発にも携わりました。
       </p>
     </div>
   </div>
@@ -94,13 +94,17 @@
     </h3>
     <div class="border-l-2 px-6 pt-2 pb-6 w-[calc(100%_-_40px)]">
       <p>
-        会社を辞めて、フリーランスエンジニアになりました。
-        <br />
-        Next.jsのApp Routerを使用した不動産サイトの構築や、TypeScript・React・Vite・GraphQLを使ったtoBe向けアプリケーションのフロントエンドの開発経験があります。
-        <br />
-        フロントエンド以外だと、Node.jsを使用したAPIの開発をしたり、GitHub Actionsを使用したCI・CDの整備を行ったり、AWS
-        Cognitoを使用した認証基盤の整備を行ったり色々な経験を積ませていただいています。
+        会社を辞めて、フリーランスエンジニアになりました。主に以下のような開発に携わった経験があります。
       </p>
+      <br />
+      <ul class="list-disc ml-4">
+        <li>
+          TypeScript・React・Vite・GraphQLを使ったtoBe向けアプリケーションのフロントエンドの実装
+        </li>
+        <li>NestJSを使ったAPIや認証・認可周りの設計・実装</li>
+        <li>GitHub Actionsを使ったCI/CDの構築</li>
+        <li>AWS Cognitoを使った認証基盤の構築、DBのmigration基盤の構築</li>
+      </ul>
     </div>
   </div>
 </SectionRoot>
