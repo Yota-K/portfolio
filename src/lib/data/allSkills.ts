@@ -22,9 +22,12 @@ export const All_SKILLS: {
     heading: 'Technologies',
     skills: [
       { title: 'React' },
+      { title: 'Next.js' },
       { title: 'Vue.js' },
       { title: 'Node.js' },
-      { title: 'SQL' },
+      { title: 'NestJS' },
+      { title: 'MySQL' },
+      { title: 'PostgreSQL' },
       { title: 'GraphQL' },
       { title: 'Laravel' },
       { title: 'WordPress' },
