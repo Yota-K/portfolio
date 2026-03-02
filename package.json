@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@lottiefiles/svelte-lottie-player": "^0.3.0",
-    "lucide-svelte": "^0.562.0"
+    "lucide-svelte": "^0.576.0"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "7.0.0",

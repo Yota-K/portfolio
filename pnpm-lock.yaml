@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.3.0
     version: 0.3.1
   lucide-svelte:
-    specifier: ^0.562.0
-    version: 0.562.0(svelte@5.46.1)
+    specifier: ^0.576.0
+    version: 0.576.0(svelte@5.46.1)
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -33,7 +33,7 @@ devDependencies:
     version: 10.4.19(postcss@8.5.6)
   bits-ui:
     specifier: 2.15.2
-    version: 2.15.2(@internationalized/date@3.10.1)(@sveltejs/kit@2.49.2)(svelte@5.46.1)
+    version: 2.15.2(@internationalized/date@3.11.0)(@sveltejs/kit@2.49.2)(svelte@5.46.1)
   eslint:
     specifier: 8.28.0
     version: 8.28.0
@@ -374,10 +374,10 @@ packages:
     deprecated: Use @eslint/object-schema instead
     dev: true
 
-  /@internationalized/date@3.10.1:
-    resolution: {integrity: sha512-oJrXtQiAXLvT9clCf1K4kxp3eKsQhIaZqxEyowkBcsvZDdZkbWrVmnGknxs5flTD0VGsxrxKgBCZty1EzoiMzA==}
+  /@internationalized/date@3.11.0:
+    resolution: {integrity: sha512-BOx5huLAWhicM9/ZFs84CzP+V3gBW6vlpM02yzsdYC7TGlZJX1OJiEEHcSayF00Z+3jLlm4w79amvSt6RqKN3Q==}
     dependencies:
-      '@swc/helpers': 0.5.18
+      '@swc/helpers': 0.5.19
     dev: true
 
   /@jridgewell/gen-mapping@0.3.13:
@@ -692,8 +692,8 @@ packages:
       vitefu: 1.1.1(vite@7.3.0)
     dev: true
 
-  /@swc/helpers@0.5.18:
-    resolution: {integrity: sha512-TXTnIcNJQEKwThMMqBXsZ4VGAza6bvN4pa41Rkqoio6QBKMvo+5lexeTMScGCIxtzgQJzElcvIltani+adC5PQ==}
+  /@swc/helpers@0.5.19:
+    resolution: {integrity: sha512-QamiFeIK3txNjgUTNppE6MiG3p7TdninpZu0E0PbqVh1a9FNLT2FRhisaa4NcaX52XVhA5l7Pk58Ft7Sqi/2sA==}
     dependencies:
       tslib: 2.8.1
     dev: true
@@ -985,7 +985,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /bits-ui@2.15.2(@internationalized/date@3.10.1)(@sveltejs/kit@2.49.2)(svelte@5.46.1):
+  /bits-ui@2.15.2(@internationalized/date@3.11.0)(@sveltejs/kit@2.49.2)(svelte@5.46.1):
     resolution: {integrity: sha512-S8eDbFkZCN17kZ7J9fD3MRXziV9ozjdFt2D3vTr2bvXCl7BtrIqguYt2U/zrFgLdR2erwybvCKv0JXYn8uKLDQ==}
     engines: {node: '>=20'}
     peerDependencies:
@@ -994,7 +994,7 @@ packages:
     dependencies:
       '@floating-ui/core': 1.7.3
       '@floating-ui/dom': 1.7.4
-      '@internationalized/date': 3.10.1
+      '@internationalized/date': 3.11.0
       esm-env: 1.2.2
       runed: 0.35.1(@sveltejs/kit@2.49.2)(svelte@5.46.1)
       svelte: 5.46.1
@@ -1693,8 +1693,8 @@ packages:
     resolution: {integrity: sha512-+gfBXl6sxXMPe8tKQm7qzLnUy5DUPJPKIyRHwtpCpyUEYjHYRJC/5gjUvdkuO2c3JllrPtHXH5UJJK8LRYl5yQ==}
     dev: false
 
-  /lucide-svelte@0.562.0(svelte@5.46.1):
-    resolution: {integrity: sha512-kSJDH/55lf0mun/o4nqWBXOcq0fWYzPeIjbTD97ywoeumAB9kWxtM06gC7oynqjtK3XhAljWSz5RafIzPEYIQA==}
+  /lucide-svelte@0.576.0(svelte@5.46.1):
+    resolution: {integrity: sha512-bm7RCoptI8unoEyo9H9sRHTHgnleuBW8npge05ZtxHkNsDNnO3p/BQEU79sshf4k+MSrjqlWvsCN5vVZtgV7ww==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
     dependencies:
