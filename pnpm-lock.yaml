@@ -33,13 +33,13 @@ devDependencies:
     version: 10.4.19(postcss@8.5.6)
   bits-ui:
     specifier: 2.15.2
-    version: 2.15.2(@internationalized/date@3.10.1)(@sveltejs/kit@2.49.2)(svelte@5.46.1)
+    version: 2.15.2(@internationalized/date@3.11.0)(@sveltejs/kit@2.49.2)(svelte@5.46.1)
   eslint:
     specifier: 8.28.0
     version: 8.28.0
   eslint-config-prettier:
-    specifier: 8.5.0
-    version: 8.5.0(eslint@8.28.0)
+    specifier: 10.1.8
+    version: 10.1.8(eslint@8.28.0)
   eslint-plugin-svelte3:
     specifier: 4.0.0
     version: 4.0.0(eslint@8.28.0)(svelte@5.46.1)
@@ -374,10 +374,10 @@ packages:
     deprecated: Use @eslint/object-schema instead
     dev: true
 
-  /@internationalized/date@3.10.1:
-    resolution: {integrity: sha512-oJrXtQiAXLvT9clCf1K4kxp3eKsQhIaZqxEyowkBcsvZDdZkbWrVmnGknxs5flTD0VGsxrxKgBCZty1EzoiMzA==}
+  /@internationalized/date@3.11.0:
+    resolution: {integrity: sha512-BOx5huLAWhicM9/ZFs84CzP+V3gBW6vlpM02yzsdYC7TGlZJX1OJiEEHcSayF00Z+3jLlm4w79amvSt6RqKN3Q==}
     dependencies:
-      '@swc/helpers': 0.5.18
+      '@swc/helpers': 0.5.19
     dev: true
 
   /@jridgewell/gen-mapping@0.3.13:
@@ -692,8 +692,8 @@ packages:
       vitefu: 1.1.1(vite@7.3.0)
     dev: true
 
-  /@swc/helpers@0.5.18:
-    resolution: {integrity: sha512-TXTnIcNJQEKwThMMqBXsZ4VGAza6bvN4pa41Rkqoio6QBKMvo+5lexeTMScGCIxtzgQJzElcvIltani+adC5PQ==}
+  /@swc/helpers@0.5.19:
+    resolution: {integrity: sha512-QamiFeIK3txNjgUTNppE6MiG3p7TdninpZu0E0PbqVh1a9FNLT2FRhisaa4NcaX52XVhA5l7Pk58Ft7Sqi/2sA==}
     dependencies:
       tslib: 2.8.1
     dev: true
@@ -985,7 +985,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /bits-ui@2.15.2(@internationalized/date@3.10.1)(@sveltejs/kit@2.49.2)(svelte@5.46.1):
+  /bits-ui@2.15.2(@internationalized/date@3.11.0)(@sveltejs/kit@2.49.2)(svelte@5.46.1):
     resolution: {integrity: sha512-S8eDbFkZCN17kZ7J9fD3MRXziV9ozjdFt2D3vTr2bvXCl7BtrIqguYt2U/zrFgLdR2erwybvCKv0JXYn8uKLDQ==}
     engines: {node: '>=20'}
     peerDependencies:
@@ -994,7 +994,7 @@ packages:
     dependencies:
       '@floating-ui/core': 1.7.3
       '@floating-ui/dom': 1.7.4
-      '@internationalized/date': 3.10.1
+      '@internationalized/date': 3.11.0
       esm-env: 1.2.2
       runed: 0.35.1(@sveltejs/kit@2.49.2)(svelte@5.46.1)
       svelte: 5.46.1
@@ -1224,8 +1224,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier@8.5.0(eslint@8.28.0):
-    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+  /eslint-config-prettier@10.1.8(eslint@8.28.0):
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
