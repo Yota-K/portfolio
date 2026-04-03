@@ -14,8 +14,10 @@
 </svelte:head>
 
 <Cat />
-<Profile />
-<Career />
-<Skills />
-<Others />
-<Contact />
+<div class="max-w-4xl mx-auto px-6">
+  <Profile />
+  <Career />
+  <Skills />
+  <Others />
+  <Contact />
+</div>

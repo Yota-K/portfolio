@@ -1,5 +1,6 @@
 <script lang="ts">
   import SectionRoot from '$lib/components/sections/SectionRoot.svelte';
+  import { scrollReveal } from '$lib/actions/scrollReveal';
   import { X, Github, Presentation, Pen, FileText } from 'lucide-svelte';
 
   const INFOS = [
@@ -32,21 +33,22 @@
 </script>
 
 <SectionRoot heading="Others">
-  <ul>
-    {#each INFOS as info}
-      <li class="items-center text-blue-600 last-of-type:pb-0">
-        <a
-          class="inline-block p-2 cursor-pointer font-bold hover:bg-blue-50 hover:rounded-lg"
-          href={info.url}
-          target="_blank"
-          rel="noopener noreferrer"
+  <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+    {#each INFOS as info, i}
+      <a
+        class="glass-card p-5 flex flex-col items-center gap-3 text-center group hover:border-cyan-400 dark:hover:border-cyan-400 transition-all duration-300"
+        href={info.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        use:scrollReveal={{ delay: i * 80 }}
+      >
+        <span
+          class="text-slate-500 dark:text-slate-400 group-hover:text-cyan-500 transition-colors"
         >
-          <span class="inline-block align-middle pr-1">
-            <svelte:component this={info.componentName} size={16} />
-          </span>
-          <span>{info.name}</span>
-        </a>
-      </li>
+          <svelte:component this={info.componentName} size={24} />
+        </span>
+        <span class="text-sm font-medium text-slate-700 dark:text-slate-300">{info.name}</span>
+      </a>
     {/each}
-  </ul>
+  </div>
 </SectionRoot>

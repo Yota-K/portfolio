@@ -4,12 +4,10 @@
   import '../app.css';
 </script>
 
-<div class="flex flex-col h-screen bg-red-200">
+<div class="flex flex-col min-h-screen">
   <Header />
-  <main class="flex-1 bg-amber-50 pt-20 dark:bg-gray-900 dark:text-white">
-    <div class="mx-auto w-10/12 lg:w-6/12">
-      <slot />
-    </div>
+  <main class="flex-1 bg-slate-50 dark:bg-slate-900 dark:text-slate-100 text-slate-800">
+    <slot />
   </main>
   <Footer />
 </div>
