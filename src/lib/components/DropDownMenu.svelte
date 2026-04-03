@@ -50,11 +50,11 @@
       {/if}
     </DropdownMenu.Trigger>
     <DropdownMenu.Content
-      class="absolute right-[-11px] top-[11px] w-36 origin-top-right rounded-md bg-white dark:bg-gray-700 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none px-1 py-1 z-50"
+      class="absolute right-[-11px] top-[11px] w-36 origin-top-right rounded-xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl shadow-lg border border-slate-200 dark:border-slate-700 focus:outline-none px-1 py-1 z-50"
     >
       {#each menuItems as item}
         <DropdownMenu.Item
-          class="group flex w-full items-center rounded-md px-2 py-2 text-sm dark:text-white text-gray-900 hover:bg-gray-100 dark:hover:bg-violet-500 dark:hover:text-white focus:outline-none cursor-pointer"
+          class="group flex w-full items-center rounded-lg px-2 py-2 text-sm dark:text-slate-200 text-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 focus:outline-none cursor-pointer transition-colors"
           onSelect={() => {
             theme = item.targetTheme;
           }}
