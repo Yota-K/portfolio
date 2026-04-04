@@ -20,12 +20,12 @@
   </div>
 
   <div class="relative pl-8">
-    <div class="absolute left-[7px] top-2 bottom-0 w-0.5 bg-slate-200 dark:bg-slate-700" />
+    <div class="absolute left-[7px] top-2 bottom-0 w-0.5 bg-slate-200 dark:bg-slate-700"></div>
 
     <div class="relative pb-12" use:scrollReveal={{ delay: 0 }}>
       <div
         class="absolute -left-8 top-1 w-4 h-4 rounded-full bg-gradient-to-r from-cyan-400 to-violet-400 ring-4 ring-slate-50 dark:ring-slate-900"
-      />
+      ></div>
       <span class="text-sm font-semibold text-cyan-600 dark:text-cyan-400">2017年8月</span>
       <div class="mt-3 glass-card p-5">
         <p class="text-slate-600 dark:text-slate-300">
@@ -39,7 +39,7 @@
     <div class="relative pb-12" use:scrollReveal={{ delay: 100 }}>
       <div
         class="absolute -left-8 top-1 w-4 h-4 rounded-full bg-gradient-to-r from-cyan-400 to-violet-400 ring-4 ring-slate-50 dark:ring-slate-900"
-      />
+      ></div>
       <span class="text-sm font-semibold text-cyan-600 dark:text-cyan-400">2018年3月</span>
       <div class="mt-3 glass-card p-5">
         <p class="text-slate-600 dark:text-slate-300">
@@ -53,7 +53,7 @@
     <div class="relative pb-12" use:scrollReveal={{ delay: 200 }}>
       <div
         class="absolute -left-8 top-1 w-4 h-4 rounded-full bg-gradient-to-r from-cyan-400 to-violet-400 ring-4 ring-slate-50 dark:ring-slate-900"
-      />
+      ></div>
       <span class="text-sm font-semibold text-cyan-600 dark:text-cyan-400"
         >2020年4月 〜 2021年4月</span
       >
@@ -70,7 +70,7 @@
     <div class="relative pb-12" use:scrollReveal={{ delay: 300 }}>
       <div
         class="absolute -left-8 top-1 w-4 h-4 rounded-full bg-gradient-to-r from-cyan-400 to-violet-400 ring-4 ring-slate-50 dark:ring-slate-900"
-      />
+      ></div>
       <span class="text-sm font-semibold text-cyan-600 dark:text-cyan-400"
         >2021年4月 〜 2023年9月</span
       >
@@ -86,7 +86,7 @@
     <div class="relative pb-4" use:scrollReveal={{ delay: 400 }}>
       <div
         class="absolute -left-8 top-1 w-4 h-4 rounded-full bg-gradient-to-r from-cyan-400 to-violet-400 ring-4 ring-slate-50 dark:ring-slate-900"
-      />
+      ></div>
       <span class="text-sm font-semibold text-cyan-600 dark:text-cyan-400">2023年10月 〜</span>
       <div class="mt-3 glass-card p-5">
         <p class="text-slate-600 dark:text-slate-300">

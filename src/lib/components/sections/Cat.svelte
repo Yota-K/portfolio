@@ -25,18 +25,18 @@
   ];
 </script>
 
-<section class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+<section class="relative h-lvh flex flex-col items-center justify-center overflow-hidden">
   <div
     class="absolute inset-0 bg-gradient-to-br from-cyan-50 via-slate-50 to-violet-50 dark:from-slate-900 dark:via-slate-900 dark:to-cyan-950"
-  />
+  ></div>
 
   <div
     class="absolute top-1/4 -left-32 w-96 h-96 bg-cyan-400/20 dark:bg-cyan-400/10 rounded-full blur-3xl animate-float"
-  />
+  ></div>
   <div
     class="absolute bottom-1/4 -right-32 w-96 h-96 bg-violet-400/20 dark:bg-violet-400/10 rounded-full blur-3xl animate-float"
     style="animation-delay: -3s;"
-  />
+  ></div>
 
   <div class="relative z-10 text-center">
     {#if LottiePlayer}
@@ -54,7 +54,7 @@
         />
       </div>
     {:else}
-      <div class="w-72 h-72 lg:w-80 lg:h-80" />
+      <div class="w-72 h-72 lg:w-80 lg:h-80"></div>
     {/if}
 
     <h2
@@ -71,7 +71,7 @@
     <div
       class="w-6 h-10 rounded-full border-2 border-slate-400 dark:border-slate-500 flex justify-center pt-2"
     >
-      <div class="w-1.5 h-1.5 rounded-full bg-slate-400 dark:bg-slate-500" />
+      <div class="w-1.5 h-1.5 rounded-full bg-slate-400 dark:bg-slate-500"></div>
     </div>
   </div>
 </section>

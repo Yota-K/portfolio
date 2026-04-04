@@ -11,7 +11,7 @@
       {heading}
       <span
         class="absolute -bottom-2 left-0 w-12 h-1.5 rounded-full bg-gradient-to-r from-cyan-400 to-violet-400"
-      />
+      ></span>
     </h2>
   {/if}
   <slot />
