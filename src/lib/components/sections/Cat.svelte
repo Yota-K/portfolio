@@ -25,7 +25,7 @@
   ];
 </script>
 
-<section class="relative h-lvh flex flex-col items-center justify-center overflow-hidden">
+<section class="relative h-dvh flex flex-col items-center justify-center overflow-hidden">
   <div
     class="absolute inset-0 bg-gradient-to-br from-cyan-50 via-slate-50 to-violet-50 dark:from-slate-900 dark:via-slate-900 dark:to-cyan-950"
   ></div>
@@ -67,7 +67,7 @@
     </p>
   </div>
 
-  <div class="absolute bottom-16 lg:bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+  <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
     <div
       class="w-6 h-10 rounded-full border-2 border-slate-400 dark:border-slate-500 flex justify-center pt-2"
     >
