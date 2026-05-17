@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { page } from '$app/stores';
+  import { page } from '$app/state';
 </script>
 
 <svelte:head>
-  <title>{$page.status}</title>
+  <title>{page.status}</title>
 </svelte:head>
 
 <div>
-  {#if $page.status === 404}
+  {#if page.status === 404}
     <h1 class="text-3xl font-bold mb-3">Page not found</h1>
   {:else}
     <h1 class="text-3xl font-bold mb-3">Something went wrong</h1>
